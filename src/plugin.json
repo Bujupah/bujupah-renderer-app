@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "app",
+  "name": "renderer",
+  "id": "bujupah-renderer-app",
+  "preload": true,
+  "logs": false,
+  "backend": false,
+  "alerting": false,
+  "state": "alpha",
+  "executable": "gpx_renderer",
+  "info": {
+    "keywords": [
+      "app"
+    ],
+    "description": "Grafana extensions pack to Yet another renderer",
+    "author": {
+      "name": "Bujupah"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=10.3.3",
+    "plugins": []
+  }
+}
